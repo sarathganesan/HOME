@@ -1,0 +1,80 @@
+$gap: 3rem;
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $gap;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.search-btn{
+  color: white;
+  background-color: aliceblue;
+}
+.menu-btn {
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.trust-pilot {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  color: #999;
+}
+
+.reviews {
+  font-size: 0.8rem;
+  
+  color: #999;
+}
+
+.content {
+  margin-top: $gap;
+  text-align: center;
+}
+
+.main-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sub-heading {
+  font-size: 1.2rem;
+  margin-bottom: $gap;
+}
+
+.star-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.fa-star {
+  background-color: black;
+  border-radius: 0;
+  padding: 0.5rem;
+}
+
+.rating-text {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  color: #999;
+}
