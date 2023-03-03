@@ -22,7 +22,7 @@
 
         .search-btn {
             border: none;
-           
+
         }
 
         .menu-btn {
@@ -71,7 +71,7 @@
             transition: all 0.2s ease-in-out;
         }
 
-       
+
 
         .top-button {
             padding: 2rem;
@@ -85,6 +85,67 @@
             background-color: blue;
             margin-top: 4rem;
             z-index: 999;
+        }
+
+        @media screen and (max-width: 480px) {
+            .header-left {
+                justify-content: right;
+            }
+
+            .menu-btn {
+                margin-right: 0;
+            }
+
+            .content {
+                text-align: center;
+            }
+            img {
+                justify-content: center;
+                align-items: center;
+                margin-left: -10px;
+                width: 300px;
+                height: auto;
+            }
+
+            .main-heading {
+                font-size: 2rem;
+                margin-top: 1rem;
+            }
+
+            .sub-heading {
+                font-size: 1rem;
+            }
+
+            .trust-pilot {
+                font-size: 0.8rem;
+            }
+
+            .reviews {
+                font-size: 0.8rem;
+            }
+
+            .buttons-container {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-top: 2rem;
+                gap: 1rem;
+                margin-left: -20px;
+                
+            }
+
+            .signup-btn {
+                font-size: 1rem;
+                padding: 0.5rem 1rem;
+                width: 70%;
+                
+            }
+
+            .explore-btn {
+                font-size: 1rem;
+                padding: 0.5rem 1rem;
+                width: 70%;
+            }
         }
     </style>
 </head>
@@ -104,7 +165,7 @@
             <div class="content">
 
 
-                <h1 class="main-heading">A Responsibility As Teach Leading, Global Company</h1>
+                <h1 class="main-heading">A Responsibility as Teach Leading, Global Company</h1>
                 <h5 class="sub-heading p-2">Create Superior Products & Services</h5>
 
                 <div class="header-right d-flex align-items-center">
